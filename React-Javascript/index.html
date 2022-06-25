@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <p>Total:</p>
+    <span id="total"></span>
+    <p>Preço:R$</p>
+    <span id="preço"></span>
+    <button id="add">clique</button>
+  </div>
+
+  <script>
+    let tot = 0
+    function calc(){
+      tot += 1
+      total.innerText = tot
+      preço.innerText = tot *200
+    }
+    const total = document.getElementById('total')
+    const preço = document.getElementById('preço')
+    const add = document.getElementById('add')
+    add.addEventListener('click',calc)
+    calc()
+    console.log(total,preço,add)
+  </script>
+</body>
+</html>
