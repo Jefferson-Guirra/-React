@@ -41,7 +41,7 @@ const App = () => {
         </span>
       </div>
       <p>Total gasto: {precoFormatado}</p>
-      <p>{precoFormatado > 10000 ? 'Você está gastando muito' : ''}</p>
+      <p>{precoFormatado > 10000 && 'Você está gastando muito'}</p>
     </>
   )
 }
