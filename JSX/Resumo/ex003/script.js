@@ -9,12 +9,18 @@ const App = ()=>{
   ];
   
   return (
-   <ul>
-    {livros.filter(({ano})=>ano>1996).map(({nome,ano})=>{
-      return <li key={nome}>{nome}, {ano}</li>
-    })}
-   </ul>
-  )
-}
+
+    <ul>
+      {livros
+        .filter(({ano}) => ano >= 1998)
+        .map(({nome,ano}) => (
+          <li key={nome}>
+            {nome}, {ano}
+          </li>
+        ))}
+    </ul>
+  );
+};
+  
 
 export default App
