@@ -1,5 +1,5 @@
 import React from 'react'
-import Produto from './Produto'
+import Produto from '../Produto'
 import { GlobalStorage } from './GlobalContext'
 
 
