@@ -1,0 +1,34 @@
+
+:root{
+  --cor-text:pink;
+}
+.titulo,
+.text{
+  color: tomato;
+  
+}
+
+.text{
+  color: var(--cor-text);
+}
+
+
+.btn{
+  border: none;
+  background-color: brown;
+  font-weight: bold;
+  padding-block: 5px;
+  padding-inline: 7px;
+  font-family: monospace;
+  border-radius: 4px;
+  animation: show .8s infinite linear;
+}
+
+@keyframes show {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg)
+  }
+}

@@ -1,0 +1,14 @@
+.content{
+  opacity: 0;
+  transform: translateX(-30px);
+  animation: show-Left .3s forwards;
+  
+}
+
+@keyframes show-Left{
+  to{
+    opacity: initial;
+    transform: initial ;
+  }
+}
+
