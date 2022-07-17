@@ -1,3 +1,3 @@
 <img  alignt="center" alt="Jeff-HTML" height="25" width="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />-React
 Curso de React Origamid.
-<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAydjEzaDIwdi0xM2gtMjB6bTE4IDExaC0xNnYtOWgxNnY5em0tMTAuMjI4IDZsLjQ2Ni0xaDMuNTI0bC40NjYgMWgtNC40NTZ6bTE0LjIyOCAzaC0yNGwyLTZoMi4xMDRsLTEuMzMgNGgxOC40NWwtMS4yOTctNGgyLjA3M2wyIDZ6Ii8+PC9zdmc+"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M2 2v13h20v-13h-20zm18 11h-16v-9h16v9zm-10.228 6l.466-1h3.524l.466 1h-4.456zm14.228 3h-24l2-6h2.104l-1.33 4h18.45l-1.297-4h2.073l2 6z"/></svg>
