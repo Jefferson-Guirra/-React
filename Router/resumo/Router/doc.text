@@ -1,0 +1,52 @@
+REACT ROUTER
+Router
+
+React Router Dom
+É uma extensão que permite gerenciarmos as rotas do React. Ela é desenvolvida e mantida pela empresa React Trainning.
+
+https://reacttraining.com/react-router/
+
+https://github.com/ReactTraining/react-router/blob/dev/docs/api-reference.md
+
+npm install history react-router-dom@6.0.0-beta.0
+
+IMPORTANTE, instale exatamente a versão 6.0.0-beta.0, a equipe do React router dom está constantemente quebrando funcionalidades e introduzindo bugs nas novas versões do beta. Até o lançamento do v6 oficial instale a 6.0.0-beta.0 pois é a mais estável no momento.
+
+BrowserRouter, Routes e Route
+O BrowserRouter deve ser o componente pai que envolve tudo que depender do react-router. O Routes define a área em que vamos colocar os nossos Route. O Route recebe um caminho em path, se esse caminho for o mesmo do URL ele irá renderizar o component que estiver dentro de element={}.
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Contato from './Contato';
+import Sobre from './Sobre';
+import Home from './Home';
+
+const App = () => {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="sobre" element={<Sobre />} />
+        <Route path="contato" element={<Contato />} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
+
+
+404 - Não Encontrado
+O * renderiza um elemento para todas as rotas que não foram definidas em path. Uso ideal para mostrarmos um componente indicando que a página não existe.
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Sobre from './Sobre';
+import Pagina404 from './Pagina404';
+
+const App = () => {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="sobre" element={<Sobre />} />
+        <Route path="*" element={<Pagina404 />} />
+      </Routes>
+    </BrowserRouter>
+  );
