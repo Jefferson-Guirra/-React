@@ -1,4 +1,4 @@
-
+<p alignt="center"><img src="https://skillicons.dev/icons?i=git,github,html,css,bootstrap,js,react,redux" /></p>
 
 
 
