@@ -12,14 +12,10 @@ const Slide = ({slides}) => {
 
   function slidePrev(){
     if(active>0) setActive(active-1)
-    
-  
   }
 
   function slideNext(){
     if(active<slides.length-1) setActive(active+1)
-    
-
   }
   return (
     <section className={styles.container}>
